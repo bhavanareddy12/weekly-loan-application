@@ -1,0 +1,40 @@
+.page-not-found{  
+    background-color: #9288F8;
+    color: #fff;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+  }
+  
+.page-not-found  .button {
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    border: 1px solid #efefef;
+    padding: .5em;
+    border-radius: 3px;
+    float: left;
+    margin: 6em 0 0 -155px;
+    left: 50%;
+    position: relative;
+    transition: all .3s linear;
+  }
+  
+.page-not-found  .button:hover {
+    background-color: #9288F8;
+    color: #fff;
+  }
+  
+.page-not-found  p {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 100;
+  }
+  
+.page-not-found  h2 {
+    text-align: center;
+    font-size: 15em;
+    font-weight: 100;
+    text-shadow: #9288F8 1px 1px, #9288F8 2px 2px, #9288F8 3px 3px
+  }

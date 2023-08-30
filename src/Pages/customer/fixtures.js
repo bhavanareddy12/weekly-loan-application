@@ -1,0 +1,77 @@
+export const columns = [
+'S.No','Customers Name','Action'
+]
+
+export const data = [{
+    name:'gowthami',
+},
+{
+    name:'bhavana',
+}]
+
+export const customersList = [
+    {id:1,villageName:"Bikkavolu",customerName:"kushal"},
+    {id:2,villageName:"Bikkavolu",customerName:"kasid"},
+    {id:3,villageName:"Rajamahendravaram",customerName:"shiv prakash"},
+    {id:4,villageName:"Rajamahendravaram",customerName:"vikram"},
+    {id:5,villageName:"Y.Ramavaram",customerName:"sanjay"},
+    {id:6,villageName:"Y.Ramavaram",customerName:"abhi"},
+    {id:7,villageName:"Gokavaram",customerName:"ram"},
+    {id:8,villageName:"Gokavaram",customerName:"rajeev"},
+    {id:9,villageName:"Seethanagaram",customerName:"durgesh"},
+    {id:10,villageName:"Seethanagaram",customerName:"ram"},
+    {id:11,villageName:"Balabhadhrapuram",customerName:"rohit"},
+    {id:12,villageName:"Balabhadhrapuram",customerName:"santosh"},
+    {id:13,villageName:"Rayavaram",customerName:"dinesh"},
+    {id:14,villageName:"Rayavaram",customerName:"arvind kumar yadav"},
+    {id:15,villageName:"Gangavaram",customerName:"kausal kumar"},
+    {id:16,villageName:"Gangavaram",customerName:"rohit"},
+    {id:17,villageName:"Kottapalli",customerName:"raj kumar"},
+    {id:18,villageName:"Kottapalli",customerName:"rupesh"},
+    {id:19,villageName:"Kadiam",customerName:"manoj yadav"},
+    {id:20,villageName:"Kadiam",customerName:"ram kumar"},
+    {id:21,villageName:"Jaggampeta",customerName:"aakash"},
+    {id:22,villageName:"Jaggampeta",customerName:"raja babu"},
+    {id:23,villageName:"Kovvur",customerName:"pawan"},
+    {id:24,villageName:"Kovvur",customerName:"sandeep"},
+    {id:25,villageName:"Rajanagaram",customerName:"yogita"},
+    {id:26,villageName:"Rajanagaram",customerName:"rahul kumar"},
+    {id:27,villageName:"Amalapuram",customerName:"rajender"},
+    {id:28,villageName:"Amalapuram",customerName:"suraj"},
+    {id:29,villageName:"Ramachandrapuram",customerName:"deepak"},
+    {id:30,villageName:"Ramachandrapuram",customerName:"abhishekh"},
+    {id:31,villageName:"Mandapeta",customerName:"shelender yadav"},
+    {id:32,villageName:"Mandapeta",customerName:"surender"},
+    {id:33,villageName:"Peddapuram",customerName:"rahul sharma"},
+    {id:34,villageName:"Peddapuram",customerName:"raju"},
+    {id:35,villageName:"Atreyapuram",customerName:"ajay"},
+    {id:36,villageName:"Atreyapuram",customerName:"deepak"},
+    {id:37,villageName:"Maredumilli",customerName:"akhilesh"},
+    {id:38,villageName:"Maredumilli",customerName:"nitin"},
+    {id:39,villageName:"Rampachodavaram",customerName:"vijay"},
+    {id:40,villageName:"Rampachodavaram",customerName:"yogesh"},
+    {id:41,villageName:"Allavaram",customerName:"vivek"},
+    {id:42,villageName:"Allavaram",customerName:"shyam kumar"},
+    {id:43,villageName:"Tallarevu",customerName:"shiv kumar"},
+    {id:44,villageName:"Tallarevu",customerName:"ajay kumar"},
+    {id:45,villageName:"Tuni",customerName:"vinod"},
+    {id:46,villageName:"Tuni",customerName:"vikas"},
+    {id:47,villageName:"Pithapuram",customerName:"arun"},
+    {id:48,villageName:"Pithapuram",customerName:"mohan kumar"},
+    {id:49,villageName:"Samarlakota",customerName:"vishal"},
+    {id:50,villageName:"Samarlakota",customerName:"bhola sarkar"},
+    {id:51,villageName:"Ravulapalem",customerName:"ravindra kumar"},
+    {id:52,villageName:"Ravulapalem",customerName:"uttam kumar"},
+    {id:53,villageName:"Sakhinetipalle",customerName:"babalu"},
+    {id:54,villageName:"Sakhinetipalle",customerName:"gopal"},
+    {id:55,villageName:"Eleswaram",customerName:"rakesh"},
+    {id:56,villageName:"Eleswaram",customerName:"satyadev"},
+    {id:57,villageName:"Peddapuram",customerName:"rishi"},
+    {id:58,villageName:"Kovvur",customerName:"mohammad"},
+    {id:59,villageName:"Balabhadhrapuram",customerName:"jagdish"},
+    {id:60,villageName:"Rayavaram",customerName:"bharat"},
+]
+
+export const getCustomersList = (village) =>{
+    return customersList.filter(customer=>customer.villageName === village)
+}
